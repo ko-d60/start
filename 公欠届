@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>公欠届</title>
+    <style>
+        body {
+            font-family: "MS Gothic", "Yu Gothic", sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .contact-info {
+            border: 1px solid #000;
+            padding: 15px;
+            margin: 20px 0;
+        }
+
+        .campus-info {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .main-content {
+            margin: 20px 0;
+        }
+
+        .instruction-list {
+            padding-left: 20px;
+        }
+
+        .period-section {
+            margin: 20px 0;
+            border: 1px solid #000;
+            padding: 15px;
+        }
+
+        .student-info {
+            margin-top: 30px;
+            border-top: 1px solid #000;
+            padding-top: 20px;
+        }
+
+        .form-grid {
+            display: grid;
+            grid-template-columns: auto 1fr;
+            gap: 10px;
+            margin: 20px 0;
+        }
+
+        .form-label {
+            font-weight: bold;
+        }
+
+        .bilingual {
+            margin-bottom: 10px;
+        }
+
+        .bilingual-text {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="bilingual">
+            <div class="bilingual-text">授業担当者各位</div>
+            <div class="bilingual-text">To instructors in charge of the course(s)</div>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="bilingual">
+            <div class="bilingual-text">「公欠届」に対する授業の取り扱いは、「立命館大学授業に関する規程」ならびに「公欠についての申し合わせ」に基づき以下となりますので、学生へのご指示をお願いします。</div>
+            <div class="bilingual-text">Classes for "Notification of Public Absence" will be handled as follows based on "Ritsumeikan University Class Regulations" and "Agreement for Public Absence", so please instruct students.</div>
+        </div>
+    </div>
+
+    <div class="contact-info">
+        <div class="bilingual">
+            <div class="bilingual-text">※本件に関する問い合わせ先 Contact for inquiries regarding this matter</div>
+            <div class="bilingual-text">各キャンパス学びステーション Manabi Station on each campus</div>
+        </div>
+        <div class="campus-info">
+            <div>衣笠 075-465-7865</div>
+            <div>BKC 077-561-4972</div>
+            <div>OIC 072-665-2050</div>
+        </div>
+    </div>
+
+    <div class="period-section">
+        <div>発行</div>
+        <div>2024/11/21(金)</div>
+        <div>2024/12/06(金)</div>
+    </div>
+
+    <div class="main-content">
+        <div>大学は、「公欠」によって成績評価上の不利益をうけないよう、以下の通り取扱います。</div>
+        <div class="instruction-list">
+            <div>① 欠席扱いとしない（出席を必要とする日数に算入しない）。</div>
+            <div>② 授業内容については次のことを行います。</div>
+            <ul>
+                <li>授業で配布した資料の配布</li>
+                <li>授業範囲の確認および授業ポイントの説明</li>
+                <li>自習内容の指示</li>
+                <li>その他授業期間中のレポート（＊）や小テスト等を実施された場合の代替措置など、授業に関る指導・援助</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="period-section">
+        <div class="form-grid">
+            <div class="form-label">学部 College</div>
+            <div>スポーツ健康科学部</div>
+            
+            <div class="form-label">期間 Period</div>
+            <div>
+                2024/11/20(木) 〜 2024/12/02(月)
+            </div>
+        </div>
+    </div>
+
+    <div class="student-info">
+        <div class="form-grid">
+            <div class="form-label">学生証番号 Student ID No</div>
+            <div>29112100030</div>
+            
+            <div class="form-label">氏名 Name</div>
+            <div>浅野 航大</div>
+            
+            <div class="form-label">欠席理由 Reason for absence</div>
+            <div>介護等体験実習 Nursing Care Practicum</div>
+        </div>
+    </div>
+
+    <footer style="margin-top: 30px; font-size: 0.8em;">
+        (2022.3 改定)
+    </footer>
+</body>
+</html>
